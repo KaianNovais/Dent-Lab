@@ -1,0 +1,46 @@
+.comentarios {
+    margin-top: 88px;
+}
+.comentarios__titulo {
+    font-family: var(--fontLogo);
+    font-weight: 700;
+    margin-bottom: 48px;
+    font-size: 36px;
+    text-align: center;
+}
+.carousel-cell {
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(239, 248, 254, 1);
+    border-radius: 8px;
+  }
+  .carousel {
+    height: 400px;
+  }
+  .comentario__div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comentario__img {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+  }
+  .comentario__nome {
+    font-family: var(--fontLogo);
+    font-weight: 700;
+  }
+
+  @media (max-width: 900px){
+    .cincoEstrelas {
+      width: 200px;
+    }
+    .carousel-cell {
+      width: 75%;
+    }
+  }
+  
+  

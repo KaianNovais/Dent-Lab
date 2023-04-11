@@ -1,0 +1,17 @@
+@import "nav.css";
+@import "variaveis.css";
+@import "header.css";
+@import "vantagens.css";
+@import "mensagem.css";
+@import "nossosServicos.css";
+@import "profissional.css";
+@import "comentarios.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+

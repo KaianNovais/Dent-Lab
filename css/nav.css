@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul  {
+    display: flex;
+    gap: 24px;
+}
+li {
+    display: inline-block;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+#logoImg {
+    width: 72px;
+    height: auto;
+}
+span {
+    color: blue;
+}
+.tituloLogo {
+    font-family: var(--fontLogo);
+}
+.menu {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    color: black;
+}
+
+.login {
+    background-color: var(--cor-btn);
+    font-weight: 900;
+    font-family: var( --fonte-titulo);
+    width: 91px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+.loginTexto {
+    color: white;
+}
+@media (max-width: 900px){
+    .menu {
+        display: none;
+    }
+}
+
