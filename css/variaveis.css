@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;500;700&family=Nunito:wght@300;400&family=Oxygen&family=Poppins:ital,wght@1,500&family=Tilt+Neon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Work+Sans:ital,wght@0,300;0,400;0,900;1,500;1,600&display=swap');
 :root {
-    --cor-primaria: #3498db;
-    --cor-secundaria: #2ecc71;
-    --cor-btn: #008df4;
-    --cor-titulo: #071e40;
-    --fontLogo: "Oxygen";
-    --fonte-titulo: 'Inter';
-  }
-  
+   --texto-logo-cor: blue; 
+   --texto-logo: "DynaPuff";
+   --texto: "Work Sans";
+   --cor-botao: #008df5;
+   --cor-branco: white;
+   --cor-laranja: #ff9021;
+   --cor-roxo: #9156e7;
+   --cor-laranja-claro: #e8af35;
+   --cor-velocidade: rgb(65, 212,201);
+   --cor-simplicidade: #325b9c;
+   --cor-qualidade: #0093fd;
+   --cor-fundo-section-profissional: rgba(239, 248, 254, 1);
+   --cor-fundo-footer: rgba(9, 29, 64, 1);
+}

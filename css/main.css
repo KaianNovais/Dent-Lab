@@ -1,17 +1,14 @@
-@import "nav.css";
-@import "variaveis.css";
-@import "header.css";
-@import "vantagens.css";
-@import "mensagem.css";
-@import "nossosServicos.css";
-@import "profissional.css";
-@import "comentarios.css";
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.img__card {
+    width: 72px;
+    height: 72px;
 }
-
-
-
+.div__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 48px;
+    gap: 48px;
+}
+main {
+    margin-top: 64px;
+}

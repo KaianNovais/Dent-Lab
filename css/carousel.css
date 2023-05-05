@@ -1,0 +1,34 @@
+ 
+  .carousel-cell {
+    width: 36%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+    background: rgba(239, 248, 254, 1);
+    border-radius: 15px;
+  }
+  .img__carousel {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+  }
+  .carousel__card {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .carousel__image {
+    width: 200px;
+  }
+  @media (max-width: 900px){
+    .carousel-cell {
+      width: 76%;
+    }
+  }
+  
+
+  

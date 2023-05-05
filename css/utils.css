@@ -1,0 +1,66 @@
+.titulo__principal {
+    font-family: var(--texto);
+    font-weight: 900;
+    font-size: 48px;
+}
+.titulo {
+    font-family: var(--texto);
+    font-weight: 600;
+    font-size: 32px; 
+}
+.sub__titulo {
+    font-family: var(--texto);
+    font-weight: 600;
+    font-size: 20px;
+}
+.texto {
+    font-family: var(--texto);
+    font-weight: 400;
+    font-size: 18px;
+}
+.textoFooterTitulo {
+    font-family: var(--texto);
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+.textoFooter {
+    font-family: var(--texto);
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+.titulo__logo {
+    font-family: var(--texto-logo);
+    font-size: 24px;
+}
+.titulo__logo__footer {
+    font-family: var(--texto-logo);
+    color: white;
+    font-size: 24px;
+}
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--cor-branco);
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.038),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.049),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.057),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.065),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.078),
+        100px 100px 80px rgba(0, 0, 0, 0.12)
+}
+.center {
+    text-align: center;
+}
+.justificado {
+    text-align: justify;
+}
